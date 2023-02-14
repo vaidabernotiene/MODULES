@@ -12,5 +12,5 @@ console.log(months)
 //Ji priims du skaičius kaip parametrus ir grąžins šiuos skaičius sudaugintus. 
 //Pagrindiniame JS file'e (script.js) importuokite ir panaudokite šį modulį.
 
-import { multiFunc } from "./multi.js"; 
-console.log(multiFunc(5, 4))
+import multiFunc from "./multi.js"; 
+console.log(multiFunc(4, 4))
