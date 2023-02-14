@@ -14,3 +14,12 @@ console.log(months)
 
 import multiFunc from "./multi.js"; 
 console.log(multiFunc(4, 4))
+
+//Sukurkite modulį pavadinimu header.js. 
+//Šiame modulyje bus funkcija, kuri paims app kaip argumentą, tačiau nieko negrąžins. 
+//Šios funkcijos tikslas - į app.innerHTML pridėti (t.y. +=) header'io kodą (pasirašykite standartinį HTML su inline CSS). 
+//Šį modulį importuokite į pagrindinį file'ą ir paduokite app, kuris bus document.body. 
+//Taip, puslapio viršuje turėtų atsivaizduoti header'is, kuris importuotas iš header.js.
+
+import headerFunc from "./headers.js"; 
+headerFunc('Vaida')
