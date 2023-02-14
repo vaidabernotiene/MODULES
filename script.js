@@ -22,4 +22,4 @@ console.log(multiFunc(4, 4))
 //Taip, puslapio viršuje turėtų atsivaizduoti header'is, kuris importuotas iš header.js.
 
 import headerFunc from "./headers.js"; 
-headerFunc('Vaida')
+headerFunc(document.body);
